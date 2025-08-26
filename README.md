@@ -24,3 +24,18 @@ It generates student group data and exports it into a JSON file for easy access 
 1. Creates an `output/` directory if it does not exist.
 2. Configures a logger to track the execution process.
 3. Initializes a `GroupGenerator` instance.
+
+## 🏃 Running the Script
+
+1. **Prepare the Student List**  
+   - Add student names in the `data/students.txt` file.  
+   - Each student name should be placed on a new line.  
+
+2. **Configure Group Settings**  
+   - Open the `config.py` file.  
+   - Update the values for the number of groups and the desired group size per student.  
+
+3. **Execute the Script**  
+   Run the following command from the project root:  
+   ```bash
+   python main.py
